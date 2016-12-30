@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84905441E0EE18900C3D0F6 /* Game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84905431E0EE18900C3D0F6 /* Game.jpg */; };
+		D84905461E0EE27500C3D0F6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84905451E0EE27500C3D0F6 /* GameViewController.swift */; };
 		D86CBFC11E0D84AB001DD50C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CBFC01E0D84AB001DD50C /* AppDelegate.swift */; };
 		D86CBFC31E0D84AB001DD50C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CBFC21E0D84AB001DD50C /* ViewController.swift */; };
 		D86CBFC61E0D84AB001DD50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86CBFC41E0D84AB001DD50C /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84905431E0EE18900C3D0F6 /* Game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Game.jpg; sourceTree = "<group>"; };
+		D84905451E0EE27500C3D0F6 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D86CBFBD1E0D84AB001DD50C /* GameCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86CBFC01E0D84AB001DD50C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86CBFC21E0D84AB001DD50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +60,10 @@
 		D86CBFBF1E0D84AB001DD50C /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				D84905431E0EE18900C3D0F6 /* Game.jpg */,
 				D86CBFC01E0D84AB001DD50C /* AppDelegate.swift */,
 				D86CBFC21E0D84AB001DD50C /* ViewController.swift */,
+				D84905451E0EE27500C3D0F6 /* GameViewController.swift */,
 				D86CBFC41E0D84AB001DD50C /* Main.storyboard */,
 				D86CBFCA1E0D84AB001DD50C /* Assets.xcassets */,
 				D86CBFCC1E0D84AB001DD50C /* LaunchScreen.storyboard */,
@@ -130,6 +136,7 @@
 				D86CBFCE1E0D84AB001DD50C /* LaunchScreen.storyboard in Resources */,
 				D86CBFCB1E0D84AB001DD50C /* Assets.xcassets in Resources */,
 				D86CBFC61E0D84AB001DD50C /* Main.storyboard in Resources */,
+				D84905441E0EE18900C3D0F6 /* Game.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84905461E0EE27500C3D0F6 /* GameViewController.swift in Sources */,
 				D86CBFC91E0D84AB001DD50C /* GameCollector.xcdatamodeld in Sources */,
 				D86CBFC31E0D84AB001DD50C /* ViewController.swift in Sources */,
 				D86CBFC11E0D84AB001DD50C /* AppDelegate.swift in Sources */,
@@ -306,6 +314,7 @@
 				D86CBFD41E0D84AB001DD50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
